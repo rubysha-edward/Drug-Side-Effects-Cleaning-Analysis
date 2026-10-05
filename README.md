@@ -1,2 +1,77 @@
-# Drug-Side-Effects-Cleaning-Analysis
-Data cleaning and preprocessing of a 100K-row synthetic Drug Side Effects dataset using Python and Pandas in Google Colab, preparing the data for Tableau and Power BI dashboards.
+# 💊 Drug Side Effects Dataset — Data Cleaning & Preprocessing
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange?logo=googlecolab)
+![Tableau](https://img.shields.io/badge/Tableau-Visualization-E97627?logo=tableau)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+
+## 📌 Project Overview
+
+This project focuses on the **data cleaning and preprocessing** of a synthetic Drug Side Effects dataset containing **100,000 records and 16 columns**.
+
+The dataset was obtained from **Kaggle** and processed using **Python, Pandas, and NumPy in Google Colab**.
+
+The main objective was to identify data-quality issues, clean and transform the dataset, validate the results, and prepare an analysis-ready dataset for further visualization and dashboard development using **Tableau and Power BI**.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- Inspect the original dataset and understand its structure
+- Identify missing values
+- Check for duplicate records
+- Identify and correct inappropriate data types
+- Convert date columns into datetime format
+- Handle missing categorical values
+- Handle missing numerical values
+- Validate the cleaned dataset
+- Export the final cleaned dataset
+- Prepare the dataset for Tableau and Power BI dashboards
+
+---
+
+## 📊 Dataset Overview
+
+| Attribute | Details |
+|---|---|
+| Dataset | Drug Side Effects |
+| Source | Kaggle |
+| Records | 100,000 |
+| Columns | 16 |
+| Data Type | Synthetic Healthcare Dataset |
+| Environment | Google Colab |
+| Programming Language | Python |
+| Libraries | Pandas, NumPy |
+| Dashboard Tools | Tableau, Power BI |
+
+---
+
+## 🔍 Data Quality Assessment
+
+Initial inspection of the dataset identified missing values in the following columns:
+
+| Column | Missing Values |
+|---|---:|
+| `chronic_condition` | 16,743 |
+| `alcohol_use` | 33,365 |
+| `recovery_days` | 11,738 |
+
+The dataset contained **no duplicate records** during the initial quality assessment.
+
+---
+
+## 🧹 Data Cleaning Process
+
+The following steps were performed during preprocessing:
+
+### 1. Import Required Libraries
+
+Python libraries required for data manipulation and numerical operations were imported.
+
+```python
+import pandas as pd
+import numpy as np
