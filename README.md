@@ -165,7 +165,6 @@ Drug-Side-Effects-Cleaning-Analysis/
     └── Data_Cleaning_Report.pdf
 ```
 
-*Note: Update the filenames and folder structure to match the files actually uploaded to your repository.*
 
 ---
 
